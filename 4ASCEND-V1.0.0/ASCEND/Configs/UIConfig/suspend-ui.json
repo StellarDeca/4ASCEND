@@ -1,0 +1,58 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "text": {
+        "font": "PingFang",
+        "tittle": "游戏已暂停",
+        "body": "对局日期: {date}\t对局时间: {game_time}\t共 {turn_number} 回合",
+        "color": {
+            "tittle": [185, 185, 185],
+            "body": [185, 185, 185]
+        },
+        
+        "size": {
+            "tittle": 54,
+            "body": 30
+        },
+        "position": {
+            "tittle": [510, 82],
+            "body": [250, 258],
+            "base-size": [1313, 707]
+        }
+    },
+    
+    "line": {
+        "width": 4,
+        "color": [255, 254, 252],
+        "start": [124, 354],
+        "end": [1193, 354]
+    },
+    
+    "buttons": {
+        "text": {
+            "size": 30,
+            "font": "PingFang",
+            "continue-play": "继续游戏",
+            "over": "退出游戏",
+            "color": {
+                "continue-play": [78, 178, 247],
+                "over": [254, 36, 98]
+            },
+            
+            "position": {
+                "base-size": [480, 60],
+                "continue-play": [180, 9],
+                "over": [180, 9]
+            }
+        },
+        
+        "position": {
+            "base-size": [1920, 1080],
+            "continue-play": [426, 657],
+            "over": [1015, 657]
+        }
+    }
+}

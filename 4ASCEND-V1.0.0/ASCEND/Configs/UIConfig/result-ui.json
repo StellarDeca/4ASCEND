@@ -1,0 +1,66 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "text": {
+        "font": "PingFang",
+        "tittle": "YOU WIN!!!",
+        "body": "对局日期: {date}\t对局时间: {game_time}\t共 {turn_number} 回合",
+        "white-win": "魔族势力已被歼灭\t({white_hp}-{black_hp})",
+        "black-win": "精灵阵营被击退了\t({white_hp}-{black_hp})",
+        
+        "color": {
+            "tittle": [185, 185, 185],
+            "body": [185, 185, 185],
+            "white-win": [78, 178, 247],
+            "black-win": [254, 36, 98]
+        },
+        
+        "size": {
+            "tittle": 54,
+            "winner": 34,
+            "body": 30
+        },
+        
+        "position": {
+            "tittle": [510, 82],
+            "winner": [460, 179],
+            "body": [250, 258],
+            "base-size": [1313, 707]
+        }
+    },
+    
+    "line": {
+        "width": 4,
+        "color": [255, 254, 252],
+        "start": [124, 354],
+        "end": [1193, 354]
+    },
+    
+    "buttons": {
+        "text": {
+            "size": 30,
+            "font": "PingFang",
+            "replay": "重赛",
+            "over": "退出游戏",
+            "color": {
+                "replay": [78, 178, 247],
+                "over": [254, 36, 98]
+            },
+            
+            "position": {
+                "base-size": [480, 60],
+                "replay": [210, 9],
+                "over": [180, 9]
+            }
+        },
+        
+        "position": {
+            "base-size": [1920, 1080],
+            "replay": [426, 657],
+            "over": [1015, 657]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "plants": "ItemsConfig/plants.json",
+    "players": "ItemsConfig/players.json",
+    
+    "font": "AssetsConfig/font.json",
+    "images": "AssetsConfig/images.json",
+    "audios": "AssetsConfig/audios.json",
+    "img-size": "AssetsConfig/img-size.json",
+    "keyframes": "AssetsConfig/keyframes-animation.json",
+    "keyframes-size": "AssetsConfig/keyframes-size.json",
+    
+    "turn-sign": "AnimationsConfig/turn-sign.json",
+    "coordinate-tip": "AnimationsConfig/coordinate-tip.json",
+    "result-players": "AnimationsConfig/result-players.json",
+    
+    "start-ui": "UIConfig/start-ui.json",
+    "players-ui": "UIConfig/players.json",
+    "result-ui": "UIConfig/result-ui.json",
+    "chessboard": "UIConfig/chessboard.json",
+    "suspend-ui": "UIConfig/suspend-ui.json"
+}

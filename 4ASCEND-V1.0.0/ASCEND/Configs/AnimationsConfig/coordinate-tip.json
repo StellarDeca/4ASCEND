@@ -1,0 +1,9 @@
+{
+    "format": {
+        "data": false,
+        "path": false
+    },
+    
+    "base-fps": 60,
+    "revolve-rate": 23
+}

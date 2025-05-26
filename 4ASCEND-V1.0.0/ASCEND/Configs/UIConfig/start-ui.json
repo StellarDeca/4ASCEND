@@ -1,0 +1,35 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "buttons": {
+        "text": {
+            "size": 30,
+            "font": "PingFang",
+            "start-play": "开始游戏",
+            "over": "退出游戏",
+            "help": "查看规则",
+            "color": {
+                "start-play": [78, 178, 247],
+                "over": [254, 36, 98],
+                "help": [185, 185, 185]
+            },
+            
+            "position": {
+                "base-size": [480, 60],
+                "start-play": [180, 9],
+                "over": [180, 9],
+                "help": [180, 9]
+            }
+        },
+        
+        "position": {
+            "base-size": [1313, 707],
+            "start-play": [212, 667],
+            "over": [1236, 667],
+            "help": [724, 667]
+        }
+    }
+}

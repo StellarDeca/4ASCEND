@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #dad8d7;
+    font-family: system-ui, "PingFang SC", "Microsoft YaHei UI";
+}
+
+.box {
+    width: 80vw;
+    max-width: 1313px;
+    height: 80vh;
+    max-height: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    background: url(result.png) no-repeat center center;
+    background-size: cover;
+    padding: 2vh;
+    text-align: center;
+    }
+
+.tittle {
+
+    font-size: 1.2em;
+    color: white;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    color: white;
+    font-size: 1em;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 0.5vh;
+}
+
+.button {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    width: 100%;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-up {
+    background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(110, 142, 251, 0.3);
+}
+
+.btn-down {
+    background: linear-gradient(135deg, #4ac1ff 0%, #7857ff 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(74, 193, 255, 0.3);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.btn-up:hover {
+    background: linear-gradient(135deg, #5d7de8 0%, #9665d8 100%);
+}
+
+.btn-down:hover {
+    background: linear-gradient(135deg, #3aa8f0 0%, #6744f5 100%);
+}
+
+button:active {
+    transform: translateY(1px);
+    filter: brightness(0.9);
+}
+
+button::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: currentColor;
+    mask-size: cover;
+}
+

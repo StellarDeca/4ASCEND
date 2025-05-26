@@ -1,0 +1,9 @@
+{
+    "format": {
+        "data": false,
+        "path": false
+    },
+    
+    "player-white-hp": 6,
+    "player-black-hp": 6
+}

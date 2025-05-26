@@ -1,0 +1,18 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "players": {
+        "base-fps": 60,
+        "max-rate": 30,
+        "move-range": 15,
+        "max-acceleration": 30,
+        "position": {
+            "White": [529, 318],
+            "Black": [1300, 318],
+            "base-size": [1920, 1080]
+        }
+    }
+}

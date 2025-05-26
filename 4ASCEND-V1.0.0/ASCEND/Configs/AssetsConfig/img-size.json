@@ -1,0 +1,71 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "start-ui": [1920, 1080],
+    
+    "background": [1920, 1080],
+    
+    "result-select": [1313, 707],
+    
+    "button": {
+        "button-normal": [480, 60],
+        "button-select": [480, 60]
+    },
+    
+    "turn-sign": {
+        "white-sign": [385, 55],
+        "black-sign": [385, 55]
+    },
+    
+    "coordinate": {
+        "coordinate-tip": [83, 83],
+        "ascend-tip-white": [60, 60],
+        "ascend-tip-black": [60, 60]
+    },
+    
+    "chess": {
+        "white-chess": [79, 79],
+        "black-chess": [79, 79],
+        "white-chess-mini": [40, 40],
+        "black-chess-mini": [40, 40]
+    },
+    
+    "players": {
+        "White-normal": [76, 68],
+        "White-loser": [76, 68],
+        "White-winner": [76, 78],
+        "Black-normal": [80, 80],
+        "Black-loser": [80, 80],
+        "Black-winner": [80, 80]
+    },
+    
+    "players-hp": {
+        "black-boundary": [34, 34],
+        "black-middle": [34, 34],
+        "background-boundary": [34, 34],
+        "background-middle": [34, 34],
+        "white-boundary": [34, 34],
+        "white-middle": [34, 34]
+    },
+    
+    "plants": {
+        "plant1": [64, 67],
+        "plant2": [52, 62],
+        "plant3": [62, 72],
+        "plant4": [57, 68],
+        "plant5": [59, 69],
+        "plant6": [62, 72],
+        "plant7": [57, 68],
+        
+        "plant1-boundary": [62, 72],
+        "plant2-boundary": [52, 62],
+        "plant3-boundary": [62, 72],
+        "plant4-boundary": [62, 72],
+        "plant5-boundary": [62, 72],
+        "plant6-boundary": [62, 72],
+        "plant7-boundary": [57, 68]
+    }
+}

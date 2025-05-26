@@ -1,0 +1,38 @@
+{
+    "format": {
+        "data":false,
+        "path": true
+    },
+    
+    "bgm": {
+        "ascend_bgm": "Audios/BackGroundMusic/bgm.wav"
+    },
+    
+    "plant": {
+        "grow": "Audios/AudioClip/plant-grow.wav"
+    },
+    
+    "chess": {
+        "put-white": "Audios/AudioClip/chess-put-1.wav",
+        "put-black": "Audios/AudioClip/chess-put-2.wav",
+        "back-attack": "Audios/AudioClip/chess-back-attack.wav"
+    },
+    
+    "ascend-status": {
+        "attack": "Audios/AudioClip/ascend-attack.wav",
+        "defend": "Audios/AudioClip/ascend-defend.wav"
+    },
+    
+    "game-status": {
+        "start": "Audios/AudioClip/game-start.wav",
+        "end": "Audios/AudioClip/game-end.wav"
+    },
+    
+    "ui": {
+        "enter": "Audios/AudioClip/enter-ui.wav"
+    },
+    
+    "button": {
+        "choose": "Audios/AudioClip/button-choose.wav"
+    }
+}

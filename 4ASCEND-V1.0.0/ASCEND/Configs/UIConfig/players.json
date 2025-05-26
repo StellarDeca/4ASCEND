@@ -1,0 +1,13 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    "base-size": [1920, 1080],
+    
+    "player-white-position": [60, 45],
+    "player-white-hp-position": [67, 217],
+    
+    "player-black-position": [1796, 70],
+    "player-black-hp-position": [1803, 249]
+}

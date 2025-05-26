@@ -1,0 +1,12 @@
+{
+    "format": {
+        "data": true,
+        "path": false
+    },
+    
+    "max-fertility": 10,
+    "soil-fertility": 0,
+    "grow-range": [2, 2],
+    "growth-fertility": 1.4,
+    "fertility-recharge-rate": 0.83
+}

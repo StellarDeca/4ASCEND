@@ -1,0 +1,71 @@
+{
+    "format": {
+        "data": false,
+        "path": true
+    },
+    
+    "start-ui": "Images/StartUI/start-ui.png",
+
+    "background": "Images/BackGround/background.png",
+    
+    "result-select": "Images/ResultSelectUI/result-select.png",
+    
+    "button": {
+        "button-normal": "Images/Button/button-normal.png",
+        "button-select": "Images/Button/button-select.png"
+    },
+    
+    "turn-sign": {
+        "white-sign": "Images/TurnSign/white.png",
+        "black-sign": "Images/TurnSign/black.png"
+    },
+    
+    "coordinate": {
+        "coordinate-tip": "Images/CoordinateTip/coordinate-tip.png",
+        "ascend-tip-white": "Images/CoordinateTip/coordinate-tip-ascend-white.png",
+        "ascend-tip-black": "Images/CoordinateTip/coordinate-tip-ascend-black.png"
+    },
+    
+    "chess": {
+        "white-chess": "Images/Chess/white-chess.png",
+        "black-chess": "Images/Chess/black-chess.png",
+        "white-chess-mini": "Images/Chess/white-chess-mini.png",
+        "black-chess-mini": "Images/Chess/black-chess-mini.png"
+    },
+    
+    "players": {
+        "White-normal": "Images/Players/alice-normal.png",
+        "White-loser": "Images/Players/alice-fault.png",
+        "White-winner": "Images/Players/alice-win.png",
+        "Black-normal": "Images/Players/teacher-normal.png",
+        "Black-loser": "Images/Players/teacher-fault.png",
+        "Black-winner": "Images/Players/teacher-win.png"
+    },
+    
+    "players-hp": {
+        "black-boundary": "Images/PlayersHP/black-boundary.png",
+        "black-middle": "Images/PlayersHP/black-middle.png",
+        "background-boundary": "Images/PlayersHP/background-boundary.png",
+        "background-middle": "Images/PlayersHP/background-middle.png",
+        "white-boundary": "Images/PlayersHP/white-boundary.png",
+        "white-middle": "Images/PlayersHP/white-middle.png"
+    },
+    
+    "plants": {
+        "plant1": "Images/Plants/plant1.png",
+        "plant2": "Images/Plants/plant2.png",
+        "plant3": "Images/Plants/plant3.png",
+        "plant4": "Images/Plants/plant4.png",
+        "plant5": "Images/Plants/plant5.png",
+        "plant6": "Images/Plants/plant6.png",
+        "plant7": "Images/Plants/plant7.png",
+        
+        "plant1-boundary": "Images/Plants/plant1-boundary.png",
+        "plant2-boundary": "Images/Plants/plant2-boundary.png",
+        "plant3-boundary": "Images/Plants/plant3-boundary.png",
+        "plant4-boundary": "Images/Plants/plant4-boundary.png",
+        "plant5-boundary": "Images/Plants/plant5-boundary.png",
+        "plant6-boundary": "Images/Plants/plant6-boundary.png",
+        "plant7-boundary": "Images/Plants/plant7-boundary.png"
+    }
+}
