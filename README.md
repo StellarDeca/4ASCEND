@@ -29,7 +29,7 @@
 首先确保电脑上安装了Python 3.10及以上的版本，并安装库pygame-ce 2.5及以上的版本，pyinstaller 6.11及以上的版本。
 使用pyinstaller命令进行打包（注意仅仅替换路径即可）：
 ```powershell
-pyinstaller --noconfirm --onefile --windowed --icon "EXE程序ICON图标的绝对路径" --add-data "Assets资源文件夹的绝对路径;./ASCEND/Assets" --add-data "Configs配置文件夹的绝对路径;./ASCEND/Configs" --add-data "Help教程文件夹的绝对路径;./ASCEND/Help"  "main.py程序主文件的绝对路径"
+pyinstaller --noconfirm --onefile --windowed --icon "EXE程序ICON图标的绝对路径" --add-data "Assets资源文件夹的绝对路径;./ASCEND/Assets" --add-data "Configs配置文件夹的绝对路径;./ASCEND/Configs" --add-data "Help教程文件夹的绝对路径;./ASCEND/Help" --add-data "Icon图标文件的绝对路径;./"  "main主程序文件的绝对路径"
 ```
 ## 📦 下载方式
 请前往 [Releases](https://github.com/StellarDeca/4ASCEND/releases) 页面下载已打包的 Windows 可执行文件。
